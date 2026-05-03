@@ -1,6 +1,6 @@
-# Agentes para Advogados — 56 subagentes Claude Code
+# 57 Agents Advocacia — Claude Code para advogados
 
-56 subagentes especializados para advogados brasileiros, prontos para uso no Claude Code. Cada agente é um especialista em uma peça/rotina específica do escritório de advocacia — petições iniciais, contestações, recursos, cálculos, pareceres, contratos — que atua proativamente quando o contexto da conversa bate com sua especialidade.
+**57 subagentes especializados** para advogados brasileiros, prontos para uso no Claude Code. Cada agente e um especialista em uma peca/rotina especifica do escritorio de advocacia — peticoes iniciais, contestacoes, recursos, calculos, pareceres, contratos — que atua proativamente quando o contexto da conversa bate com sua especialidade.
 
 ## Como instalar
 
@@ -16,57 +16,62 @@
 
    Ou, para uso global: `~/.claude/agents/`.
 
+3. Reinicie o Claude Code (`/exit` e abra de novo). Confirme com `/agents`.
+
 ## Como usar
 
-- **Automático**: "preciso contestar uma ação de cobrança em 15 dias" → Claude delega para `contestacao-civel`.
+- **Automatico**: "preciso contestar uma acao de cobranca em 15 dias" -> Claude delega para `contestacao-civel`.
 - **Manual**: "use o agente `mandado-seguranca-tributario` para discutir Tema 69 do meu cliente".
-- **Em pipeline**: `peticao-inicial-civel` → após sentença, `apelacao-civel` → após trânsito, `cumprimento-sentenca`.
+- **Em pipeline**: `peticao-inicial-civel` -> apos sentenca, `apelacao-civel` -> apos transito, `cumprimento-sentenca`.
 
-## Catálogo (56 agentes)
+## Catalogo (57 agentes)
 
-### Cível
-01 Petição inicial · 02 Contestação · 03 Apelação · 04 Agravo de instrumento · 05 Embargos de declaração
-06 Cobrança · 07 Danos morais · 08 Danos materiais · 09 Revisional de contrato · 10 Rescisória
+### Civel
+01 Peticao inicial · 02 Contestacao · 03 Apelacao · 04 Agravo de instrumento · 05 Embargos de declaracao
+06 Cobranca · 07 Danos morais · 08 Danos materiais · 09 Revisional de contrato · 10 Rescisoria
 
 ### Trabalhista
-11 Reclamação trabalhista · 12 Defesa do empregador · 13 Cálculo de verbas · 14 Horas extras
-15 Recurso ordinário · 16 Recurso de revista
+11 Reclamacao trabalhista · 12 Defesa do empregador · 13 Calculo de verbas · 14 Horas extras
+15 Recurso ordinario · 16 Recurso de revista
 
-### Família e Sucessões
-17 Divórcio consensual · 18 Divórcio litigioso · 19 Alimentos
-20 Inventário extrajudicial · 21 Inventário judicial · 22 Partilha
-23 Guarda compartilhada · 24 União estável
+### Familia e Sucessoes
+17 Divorcio consensual · 18 Divorcio litigioso · 19 Alimentos
+20 Inventario extrajudicial · 21 Inventario judicial · 22 Partilha
+23 Guarda compartilhada · 24 Uniao estavel
 
 ### Criminal
-25 Resposta à acusação · 26 Alegações finais · 27 Habeas corpus · 28 Apelação · 29 Revisão criminal
+25 Resposta a acusacao · 26 Alegacoes finais · 27 Habeas corpus · 28 Apelacao · 29 Revisao criminal
 
-### Tributário
-30 Mandado de segurança · 31 Anulatória de débito · 32 Embargos à execução fiscal
-33 Exceção de pré-executividade · 34 Recuperação tributária
+### Tributario
+30 Mandado de seguranca · 31 Anulatoria de debito · 32 Embargos a execucao fiscal
+33 Excecao de pre-executividade · 34 Recuperacao tributaria
 
 ### Empresarial
-35 Recuperação judicial · 36 Falência · 37 Dissolução de sociedade
+35 Recuperacao judicial · 36 Falencia · 37 Dissolucao de sociedade
 38 Contrato social · 39 Acordo de acionistas
 
 ### Consumidor
-40 Reclamação Procon · 41 Prática abusiva CDC · 42 Vício de produto/serviço
+40 Reclamacao Procon · 41 Pratica abusiva CDC · 42 Vicio de produto/servico
 
-### Imobiliário
-43 Despejo · 44 Renovatória · 45 Usucapião extrajudicial · 46 Usucapião judicial · 47 Adjudicação compulsória
+### Imobiliario
+43 Despejo · 44 Renovatoria · 45 Usucapiao extrajudicial · 46 Usucapiao judicial · 47 Adjudicacao compulsoria
 
-### Previdenciário
-48 Aposentadoria por tempo · 49 Aposentadoria especial · 50 BPC/LOAS · 51 Auxílio-doença
+### Previdenciario
+48 Aposentadoria por tempo · 49 Aposentadoria especial · 50 BPC/LOAS · 51 Auxilio-doenca
 
 ### Operacional
-52 Cumprimento de sentença · 53 Impugnação ao cumprimento
-54 Cálculo judicial · 55 Parecer jurídico · 56 Minuta de contrato
+52 Cumprimento de sentenca · 53 Impugnacao ao cumprimento
+54 Calculo judicial · 55 Parecer juridico · 56 Minuta de contrato
+
+### Direito Digital (57) — NOVO
+57 LGPD / data breach / parecer LGPD / defesa em processo sancionatorio ANPD
 
 ## Avisos legais
 
-- Os agentes refletem CPC, CLT, CDC, CTN, CP, CPP e legislação especial vigentes em 2026.
-- Outputs gerados são **rascunhos**; o advogado responsável deve revisar e assumir a responsabilidade técnica (OAB, art. 32 do EAOAB).
-- Templates e exemplos usam dados fictícios.
+- Os agentes refletem CPC, CLT, CDC, CTN, CP, CPP, LGPD e legislacao especial vigentes em 2026.
+- Outputs gerados sao **rascunhos**; o advogado responsavel deve revisar e assumir a responsabilidade tecnica (OAB, art. 32 do EAOAB).
+- Templates e exemplos usam dados ficticios.
 
-## Licença
+## Licenca
 
-Uso permitido para clientes ASV Digital / Bravy. Não redistribuir sem autorização.
+Uso permitido para clientes ASV Digital / Bravy. Nao redistribuir sem autorizacao.
